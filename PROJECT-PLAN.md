@@ -2,7 +2,8 @@
 
 **Project:** ALP (Adelic Langlands Physics)  
 **Date:** 2026-07-26 | **Version:** v1.0  
-**Status:** Active — All phases complete, Phase 3.1—5.0 delivered  
+**Status:** Complete — 12 papers published  
+**DOI:** 10.5281/zenodo.21609539  
 **Parent Program:** QNFO Adelic Physics (ZBW P1-P7, Adelic Synthesis, UC-Langlands)  
 **License:** QNFO Unified License Agreement (QNFO-ULA): https://legal.qnfo.org/
 
