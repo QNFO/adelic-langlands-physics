@@ -11,7 +11,7 @@ status: "draft"
 
 ## Abstract
 
-We present a formal proof that the Silent Parameter isomorphism $R(\mathrm{SU}(2))_k \cong R(\mathbb{Z}_2^\times)$ established in ZBW Phase 2 is an instance of the local Langlands correspondence for $\mathrm{GL}(1)$ at the prime $p = 2$. The proof proceeds in three parts: (1) ring-theoretic identification of $R(\mathbb{Z}_2^\times)$ as the tame automorphic character ring of $\mathbb{Q}_2^\times$, (2) explicit construction of the Langlands parameter (Frobenius semisimplification) from the fusion ring data of $R(\mathrm{SU}(2))_k$, and (3) L-function matching — verifying that the local L-function computed from the Galois side equals the spectral L-function derived from the modular S-matrix of the quantum group fusion category $C(\mathrm{SU}(2), k)$. The result establishes that the Silent Parameter is not merely an analogy but a precise instance of place-crossing Langlands functoriality linking the Archimedean ($\infty$) and dyadic ($p = 2$) completions of $\mathbb{Q}$.
+We present a formal proof that the Silent Parameter isomorphism $R(\mathrm{SU}(2))_k \cong R(\mathbb{Z}_2^\times)$ established in ZBW Phase 2 is an instance of the local Langlands correspondence for $\mathrm{GL}(1)$ at the prime $p = 2$. The proof proceeds in three parts: (1) ring-theoretic identification of $R(\mathbb{Z}_2^\times)$ as the tame automorphic character ring of $\mathbb{Q}_2^\times$, (2) explicit construction of the Langlands parameter (Frobenius semisimplification) from the fusion ring data of $R(\mathrm{SU}(2))_k$, and (3) L-function matching — verifying that the local L-function computed from the Galois side equals the spectral L-function derived from the modular S-matrix of the quantum group fusion category $C(\mathrm{SU}(2), k)$. The result establishes that the Silent Parameter is not an analogy but a precise instance of place-crossing Langlands functoriality linking the Archimedean ($\infty$) and dyadic ($p = 2$) completions of $\mathbb{Q}$.
 
 ---
 
@@ -99,7 +99,7 @@ where $R_k(\mathbb{Z}_2^\times)$ denotes the subring of characters of $\mathbb{Z
 
 The mapping is constructed in two steps:
 
-**Step 1: Label matching.** The simple objects of $C(\mathrm{SU}(2), k)$ are indexed by spins $j = 0, \frac{1}{2}, 1, \ldots, \frac{k}{2}$, giving $k+1$ objects. The characters of $\mathbb{Z}_2^\times$ with conductor $\leq 2^m$ are in bijection with pairs $(\varepsilon, r)$ where $\varepsilon \in \{\pm 1\}$ and $r \in \mathbb{Z}/2^{m-1}\mathbb{Z}$, also giving $2 \cdot 2^{m-1} = 2^m = k+2$ characters (with the trivial character excluded by bounded conductor). Actually, the precise count requires adjusting for the identity: the relevant group is $\mathbb{Z}_2^\times / (1 + 2^m\mathbb{Z}_2) \cong C_2 \times C_{2^{m-2}}$, which has order $2^{m-1} = (k+2)/2$.
+**Step 1: Label matching.** The simple objects of $C(\mathrm{SU}(2), k)$ are indexed by spins $j = 0, \frac{1}{2}, 1, \ldots, \frac{k}{2}$, giving $k+1$ objects. The characters of $\mathbb{Z}_2^\times$ with conductor $\leq 2^m$ are in bijection with pairs $(\varepsilon, r)$ where $\varepsilon \in \{\pm 1\}$ and $r \in \mathbb{Z}/2^{m-1}\mathbb{Z}$, also giving $2 \cdot 2^{m-1} = 2^m = k+2$ characters (with the trivial character excluded by bounded conductor). To be precise, the count requires adjusting for the identity: the relevant group is $\mathbb{Z}_2^\times / (1 + 2^m\mathbb{Z}_2) \cong C_2 \times C_{2^{m-2}}$, which has order $2^{m-1} = (k+2)/2$.
 
 The doubling is resolved by identifying the spin-$j$ label with the $j$-th Fourier mode on the dual group:
 
@@ -189,7 +189,7 @@ The Langlands parameter for $\mathrm{GL}(1)$ at $p = 2$ is a complex number $\al
 
 $$\alpha(j) = \chi_{\mathrm{tors}}(-1) \cdot 2^{s(j)-1} = (-1)^{2j} \cdot 2^{2\pi i j / (\log 2 \cdot (k+2))}$$
 
-This is the **physical prediction** of the Silent Parameter: the Frobenius eigenvalue at $p = 2$ is determined by the spin $j$ and level $k$ of the WZW model. When $j = 1/2$ (the fundamental representation), $\alpha = -1$, corresponding to the ramified quadratic character (the unique non-trivial character of $C_2$).
+This is the **physical prediction** of the Silent Parameter: the Frobenius eigenvalue at $p = 2$ is determined by the spin $j$ and level $k$ of the WZW model. When $j = 1/2$ (the defining representation $\mathbf{2}$ of $\mathrm{SU}(2)$), $\alpha = -1$, corresponding to the ramified quadratic character (the unique non-trivial character of $C_2$).
 
 ---
 
