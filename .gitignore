@@ -1,0 +1,36 @@
+# Ephemeral scripts (may contain API tokens during development)
+_*.py
+_*.js
+_*.ps1
+
+# Environment and secrets
+.env
+*.token
+keys.json
+*.secret
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
