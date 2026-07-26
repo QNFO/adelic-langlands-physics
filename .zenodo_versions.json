@@ -1,8 +1,9 @@
 {
   "concept_doi": "10.5281/zenodo.21609538",
-  "latest_deposit_id": "21609889",
+  "latest_deposit_id": "21610573",
   "versions": [
-    {"doi": "10.5281/zenodo.21609539", "deposit_id": "21609539", "tag": "v1.0", "published_at": "2026-07-26", "note": "PROVENANCE-BUNDLE only, no PDFs"},
-    {"doi": "10.5281/zenodo.21609889", "deposit_id": "21609889", "tag": "v2.0", "published_at": "2026-07-26", "note": "KIF-30 remediation: 12 PDFs + bundle + README"}
+    {"doi": "10.5281/zenodo.21609539", "deposit_id": "21609539", "tag": "v1.0", "published_at": "2026-07-26", "notes": "ALP v1.0 initial — 12 papers, markdown-only"},
+    {"doi": "10.5281/zenodo.21609889", "deposit_id": "21609889", "tag": "v2.0", "published_at": "2026-07-26", "notes": "ALP v2.0 — 12 papers with PDFs, KIF-30 remediation"},
+    {"doi": "10.5281/zenodo.21610573", "deposit_id": "21610573", "tag": "v2.1", "published_at": "2026-07-26", "notes": "ALP v2.1 — Papers 13-14: Silent Parameter Theorem + Cross-Domain Consilience, 14 papers total"}
   ]
 }

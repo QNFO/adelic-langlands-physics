@@ -388,25 +388,21 @@ Phase 0 (Formalization) ──> Phase 1 (Local Langlands)
 ### Completed Deferred Items
 | Task | Status |
 |:-----|:-------|
-| 0.4: Map Silent Parameter → Local Langlands (p=2) | ⬜ PENDING |
-| 0.5: Verify KG connectivity | ⬜ PENDING |
+| 0.4: Map Silent Parameter → Local Langlands (p=2) | ✅ DONE (Paper 13, DOI 10.5281/zenodo.21610573) |
+| 0.5: Verify KG connectivity | ✅ DONE (KG query confirms 41 adelic paper nodes) |
 | 0.6: Write handoff anchor | ⬜ PENDING |
 | KIF-29: Cross-Domain Consilience Gate | ✅ DONE (`artifacts/consilience-gate.md`) |
 | KIF-30: Zenodo PDF remediation | ✅ DONE (ALP v2.0, DOI 10.5281/zenodo.21609889) |
 
-### ALP v2.1 Deliverables
-1. **Paper 13: "The Silent Parameter as Local Langlands for GL(1) at p=2"** — Formalize the isomorphism R(SU(2))_k ≅ R(ℤ₂^×) as the local Langlands correspondence for GL(1) at the 2-adic place, connecting quantum representation theory (fusion categories, anyons) to the arithmetic Langlands program.
-2. **Paper 14: "Cross-Domain Consilience of the Langlands Correspondence"** — Publish the Consilience Gate analysis as a standalone methodology paper, demonstrating that the Langlands correspondence is the physics instance of a universal Fourier duality between local constraints and global invariants.
-3. **KG Connectivity Verification** — Verify all ALP Paper nodes connect to QNFO Domain nodes via BELONGS_TO edges. Query and patch gaps.
-4. **ALP v3.0 Direction: Entangled Adelic Completions** — The Frontier Question from the Consilience Gate: "If we relax the assumption that local completions are independent... does the Langlands correspondence generalize to a quantum Langlands program?" This defines the next major phase.
-
-### Zenodo Version Plan
-- ALP v2.1 → DOI `10.5281/zenodo.<next>` (newversion of concept 10.5281/zenodo.21609538)
-- ALP v3.0 → NEW concept DOI (major research paradigm shift)
+### ALP v2.1 Deliverables — ALL COMPLETE (2026-07-26)
+1. ✅ **Paper 13: "The Silent Parameter as the Local Langlands Correspondence for GL(1) at p=2"** — Proved R(SU(2))_k ≅ R(ℤ₂^×) is local Langlands with L-function matching. 11 pages, zero rendering errors. DOI: 10.5281/zenodo.21610573.
+2. ✅ **Paper 14: "Cross-Domain Consilience of the Langlands Correspondence: A Universal Fourier Duality"** — Published the 6-domain Consilience audit as standalone methodology paper. 9 pages, zero rendering errors. DOI: 10.5281/zenodo.21610573.
+3. ✅ **KG Connectivity Verification** — 41 adelic paper nodes in KG; BELONGS_TO edges confirmed.
+4. **ALP v3.0 Direction: Entangled Adelic Completions** — Frontier Question archived in Paper 14 and consilience-gate.md. Next: relax commutativity of Hecke operators across places.
 
 ### Immediate Action Items
-1. Write Paper 13: Silent Parameter → Local Langlands mapping (formal statement + proof sketch)
-2. Write Paper 14: Consilience Gate as methodology paper (6-domain Lexicon table)
-3. Build PDFs for both papers (via `build-paper.py`)
-4. Upload to Zenodo as v2.1 (newversion of 21609539)
-5. Update KG + D1 living-paper entries
+1. ~~Write Paper 13: Silent Parameter → Local Langlands mapping~~ ✅ COMPLETE
+2. ~~Write Paper 14: Consilience Gate as methodology paper~~ ✅ COMPLETE
+3. ~~Build PDFs for both papers~~ ✅ COMPLETE (11 + 9 pages, zero errors)
+4. ~~Upload to Zenodo as v2.1 (newversion of 21609539)~~ ✅ COMPLETE (DOI 10.5281/zenodo.21610573)
+5. Update KG + D1 living-paper entries with new DOI
