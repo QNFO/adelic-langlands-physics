@@ -1,9 +1,10 @@
 {
   "concept_doi": "10.5281/zenodo.21609538",
-  "latest_deposit_id": "21610573",
+  "latest_deposit_id": "21628383",
   "versions": [
     {"doi": "10.5281/zenodo.21609539", "deposit_id": "21609539", "tag": "v1.0", "published_at": "2026-07-26", "notes": "ALP v1.0 initial — 12 papers, markdown-only"},
     {"doi": "10.5281/zenodo.21609889", "deposit_id": "21609889", "tag": "v2.0", "published_at": "2026-07-26", "notes": "ALP v2.0 — 12 papers with PDFs, KIF-30 remediation"},
-    {"doi": "10.5281/zenodo.21610573", "deposit_id": "21610573", "tag": "v2.1", "published_at": "2026-07-26", "notes": "ALP v2.1 — Papers 13-14: Silent Parameter Theorem + Cross-Domain Consilience, 14 papers total"}
+    {"doi": "10.5281/zenodo.21610573", "deposit_id": "21610573", "tag": "v2.1", "published_at": "2026-07-26", "notes": "ALP v2.1 — Papers 13-14: Silent Parameter Theorem + Cross-Domain Consilience, 14 papers total"},
+    {"doi": "10.5281/zenodo.21628383", "deposit_id": "21628383", "tag": "v2.2", "published_at": "2026-07-27", "notes": "ALP v2.2 — Paper 15: Harmonic Analysis is Langlands: FFT as Computational Langlands for GL(1), 15 papers total"}
   ]
 }
